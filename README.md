@@ -12,8 +12,7 @@ Hellp! This contains my portfolio that includes my interests, resume, contact in
 | 2 | Change the cover photo             | 1               | 11/2/2018       | Look for a nice HD professional background from Unsplash | 
 | 3 | About Me Page         | 3               | 11/5/2018      | Contains my background and most recent work |
 | 4 | Projects Page         | 3               | 11/7/2018      | Update the website template to have my CS projects and side work | 
-| 5 | Site Tracker           | 3               | 11/13/2018      | Implement a way to track the IP addresses of people who click on various links in my website | 
-| 6 | Purchase Website      | 1               | 11/14/2018      |      |
+
 
 ### Using The Template As Is
 
@@ -60,6 +59,7 @@ By default, the template comes with a number of images, some of which can be kep
  - Fully responsive
  - Comes with Bootstrap grid system
  - Easy colour changes can be done through simple variable edits
+
 
 ## Implementation 
 Uploading the website template from Github: https://github.com/RyanFitzgerald/devportfolio
