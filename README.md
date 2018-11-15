@@ -53,6 +53,42 @@ By default, the template comes with a number of images, some of which can be kep
 * Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can kept or changed easily by replacing the `favicon.ico` with your new one.
 * Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
 
+### Optional Sections
+
+The template comes with an optional section that can be added to the page markup to list things like Certifications, Hobbies, and more (Note: these are not included by default). The markup for the additional optional section is as follows:
+
+```HTML
+<div class="optional-section background-alt">
+    <h2 class="heading">Section Name</h2>
+
+    <div class="optional-section-block">
+        <h3>Some content title</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+        </p>
+        <ul>
+            <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </li>
+            <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </li>
+            <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </li>
+        </ul>
+    </div>
+    <!-- End .optional-section-block -->
+
+</div>
+<!-- End .optional-section -->
+```
+
+You can copy .optional-section-block for each new item you wish you have in the optional section. Also, the background-alt class may need to be removed depending on where the optional section is placed in your layout as this adds the grey background. If you play it at the bottom after "Skills", it can be used as is. Also, by default the border is applied at the top, but this can also be adjusted as needed.
+
+The optional section blocks have styling for h3 (the block title), h4, p, and ul tags by default.
+
+
 ## Technical 
  - Gulp ready (compiles Sass and minifies JS)
  - Sass ready with lots of commenting
@@ -63,3 +99,4 @@ By default, the template comes with a number of images, some of which can be kep
 
 ## Implementation 
 Uploading the website template from Github: https://github.com/RyanFitzgerald/devportfolio
+
